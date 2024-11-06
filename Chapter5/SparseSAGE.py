@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Commented out IPython magic to ensure Python compatibility.
 %%capture
 !pip install torch torch-geometric
 !pip install  dgl -f https://data.dgl.ai/wheels/torch-2.1/repo.html
