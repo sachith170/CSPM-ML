@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/posture1.csv', sep=',')
+df = pd.read_csv('/content/drive/MyDrive/posture_data.csv', sep=',')
 
 
 from sklearn.manifold import TSNE
