@@ -27,7 +27,7 @@ from lightgbm import LGBMClassifier
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/rspec 10000.csv', sep=',')
+df = pd.read_csv('/content/drive/MyDrive/rspecs.csv', sep=',')
 print(type(df))
 df.head()
 
