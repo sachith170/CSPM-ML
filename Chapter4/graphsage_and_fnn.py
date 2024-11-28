@@ -23,7 +23,7 @@ from sklearn.metrics import precision_recall_curve, auc, accuracy_score, roc_cur
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/posture1.csv', sep=',')
+df = pd.read_csv('/content/drive/MyDrive/posture_data.csv', sep=',')
 
 def Labelling(Rows):
     count = 0
