@@ -20,7 +20,7 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-df = pd.read_csv('/content/drive/MyDrive/posture1.csv', sep=',')
+df = pd.read_csv('/content/drive/MyDrive/posture_data.csv', sep=',')
 
 !pip show torch
 !pip show torch-geometric
